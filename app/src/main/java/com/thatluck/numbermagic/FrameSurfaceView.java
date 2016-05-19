@@ -119,17 +119,17 @@ public class FrameSurfaceView extends SurfaceView implements Callback, Runnable 
 
 	@Override
 	public void run() {
-		while(!PokerStateTool.FLAG_QUIT) {
-			if (PokerStateTool.FLAG_BEGIN&&!PokerStateTool.FLAG_PAUSE) {
-				myDraw();
-				logic();
-				try {
-					Thread.sleep(MainPreference.POKER_TIME_INTERVAL);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
-			}
-		}
+//		while(!PokerStateTool.FLAG_QUIT) {
+//			if (PokerStateTool.FLAG_BEGIN&&!PokerStateTool.FLAG_PAUSE) {
+//				myDraw();
+//				logic();
+//				try {
+//					Thread.sleep(MainPreference.POKER_TIME_INTERVAL);
+//				} catch (InterruptedException e) {
+//					e.printStackTrace();
+//				}
+//			}
+//		}
 
 
 
