@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="倒计时时长,只允许设置1~36000的整数,单位为秒"
+        android:key="PS_TIMER_LENGTH"
+
+        android:defaultValue="60"
+        android:inputType="number"
+        android:numeric="integer"
+        android:textSize="60sp"
+
+        />
+    <EditTextPreference
+        android:title="生成数字个数,只允许设置1~100的整数"
+        android:key="PS_NUMBER_COUNT"
+        android:defaultValue="40"
+        android:inputType="number"
+        android:numeric="integer"
+        android:textSize="60sp"/>
+    <EditTextPreference
+        android:title="生成数字最小值,只允许设置1~100的整数"
+        android:key="PS_NUMBER_BEGIN"
+        android:defaultValue="1"
+        android:inputType="number"
+        android:numeric="integer"
+        android:textSize="60sp"/>
+    <EditTextPreference
+        android:title="生成数字最大值,只允许设置1~100的整数"
+        android:key="PS_NUMBER_END"
+        android:defaultValue="100"
+        android:inputType="number"
+        android:numeric="integer"
+        android:textSize="60sp"/>
+
+
+    <EditTextPreference
+        android:title="扑克练习时的时间间隔，单位毫秒，只允许设置1~100*1000的整数"
+        android:key="PS_POKER_TIME_INTERVAL"
+        android:defaultValue="2000"
+        android:inputType="number"
+        android:numeric="integer"
+        android:textSize="60sp"/>
+
+    <EditTextPreference
+        android:title="数字密码"
+        android:key="PS_DICT"
+        android:defaultValue="@string/dict"
+        android:visibility="gone"
+        />
+</PreferenceScreen>

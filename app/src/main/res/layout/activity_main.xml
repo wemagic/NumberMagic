@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+
+    tools:context=".MainActivity">
+
+    <TextView android:id="@+id/tv_number"
+        android:text=""
+        android:textSize="30sp"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="bottom"
+        >
+    <Button
+        android:id="@+id/btn_reset"
+        android:text="重置"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+        <Button
+            android:id="@+id/btn_show"
+            android:text="开始"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            />
+        <Button
+            android:id="@+id/btn_hide"
+            android:text="停止"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            />
+        <Button
+            android:id="@+id/btn_compare"
+            android:text="比较"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="bottom"
+        >
+        <TextView
+            android:id="@+id/tv_timer"
+            android:text=""
+            android:textSize="50sp"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <EditText android:id="@+id/et_repeat"
+        android:text=""
+        android:textSize="30sp"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:inputType="number"/>
+
+
+</LinearLayout>

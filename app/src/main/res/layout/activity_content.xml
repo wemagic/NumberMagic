@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="com.thatluck.numbermagic.ContentActivity">
+    <Button
+        android:id="@+id/bt_reset_database"
+        android:text="清空数据"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_user"
+        android:text="king"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <SeekBar
+     android:id="@+id/sb_length"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+      android:max="100"
+        android:tag="hello"
+        android:visibility="gone"
+
+    />
+    <EditText
+        android:id="@+id/et_order"
+        android:text="usetime,daytime desc"
+        android:hint="order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <EditText
+        android:id="@+id/et_kind"
+        android:text="1"
+        android:hint="kind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <EditText
+        android:id="@+id/et_result"
+        android:text="success"
+        android:hint="result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <EditText
+        android:id="@+id/et_datetime"
+        android:text=""
+        android:hint="datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/bt_query"
+        android:text="查询"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/cb_isall"
+        android:hint="全部显示"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+<TextView
+        android:id="@+id/tv_query" android:text=""  android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

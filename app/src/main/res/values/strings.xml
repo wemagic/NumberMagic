@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">最好的扑克速记</string>
+
+    <string name="hello_world">欢迎</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_content">数据查询</string>
+    <string name="title_activity_index">主页</string>
+    <string name="title_activity_poker">扑克训练</string>
+    <string name="title_activity_main">数字训练</string>
+    <string name="hello">\t\t\t\t欢迎登录3A记忆训练APP，美好的一天从3A开始！</string>
+    <string name="title_activity_dict">数字密码</string>
+    <string name="dict">
+        1树\n
+2鸭子\n
+3耳朵\n
+4旗\n
+5称钩\n
+6勺子\n
+7斧子\n
+8溜冰鞋\n
+9猫\n
+10棒球\n
+11筷子\n
+12太阳\n
+13巫婆\n
+14戒指\n
+15圆月\n
+16石榴\n
+17雨\n
+18彩票\n
+19高尔夫球\n
+20香烟\n
+
+21鳄鱼\n
+22双胞胎twins\n
+23乔丹\n
+24手表\n
+25二胡\n
+26二流子\n
+27耳机\n
+28恶霸狗\n
+29阿娇\n
+30三菱汽车\n
+31鲨鱼\n
+32扇子\n
+33伞\n
+34山石\n
+35珊瑚\n
+36山鹿\n
+
+
+37山鸡\n
+38杨紫\n
+39皮炎平\n
+40朱德\n
+41董卿\n
+42柿子\n
+43石山\n
+44石狮\n
+45唐僧\n
+46阿甘\n
+47司机张嘉译\n
+48大刀\n
+49毛泽东\n
+50张无忌苏有朋\n
+51王宝强\n
+52李咏\n
+53五行山\n
+54武士李小龙\n
+55火车\n
+56蜗牛\n
+
+
+57手枪\n
+58哥哥\n
+59棺材\n
+60寿桃\n
+61儿童\n
+62电炉丝\n
+63流沙\n
+64螺丝\n
+65锣鼓\n
+66两只蝌蚪\n
+67绿漆\n
+68喇叭\n
+69太极\n
+70麒麟\n
+
+
+71奇异果 猕猴桃\n
+72企鹅\n
+73花旗参\n
+74骑士\n
+75舞女\n
+76台风气流\n
+77喜鹊\n
+78青蛙\n
+79气球\n
+80巴黎塔\n
+81军人雷锋\n
+82飞镖靶子\n
+83烟花\n
+84不死鸟\n
+85白虎\n
+86小八路军张嘎子\n
+
+
+87白棋\n
+88爸爸\n
+89芭蕉\n
+90蓝精灵\n
+91医生\n
+92球\n
+93救生圈\n
+94调酒师\n
+95救护车\n
+96牛\n
+97邓小平\n
+98酒吧\n
+99舅舅\n
+00望远镜\n
+
+    </string>
+</resources>
